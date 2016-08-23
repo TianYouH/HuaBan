@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    
+    <header id="setLabel" hidden>
+
+        <form action="#">
+            <select name="bgcolor" id="bgcolor" onclick="xiuGai(this)">
+                <optgroup label="背景颜色">                          
+                <option class="hong" value="red">红</option>
+                <option class="ju" value="orange">橘</option>
+                <option class="huang" value="yellow">黄</option>
+                <option class="lv" value="green">绿</option>
+                <option class="qing" value="cyan">青</option>
+                <option class="lan" value="blue">蓝</option>
+                <option class="zi" value="purple">紫</option>
+                <option class="hei" value="black" >黑</option>
+                <option class="bai" value="white" selected>白</option>
+            </select>背景颜色
+            <select name="pencilColor" id="pencilColor" onclick="xiuGai(this)">
+                <optgroup label="铅笔颜色">                          
+                <option class="hong" value="red">红</option>
+                <option class="ju" value="orange">橘</option>
+                <option class="huang" value="yellow">黄</option>
+                <option class="lv" value="green">绿</option>
+                <option class="qing" value="cyan">青</option>
+                <option class="lan" value="blue">蓝</option>
+                <option class="zi" value="purple">紫</option>
+                <option class="hei" value="black" selected>黑</option>
+                <option class="bai" value="white" >白</option>
+            </select>铅笔颜色
+            <input id="pencilSize" type="text" value="10" onclick="xiuGai(this)">画笔大小
+        </form>
+
+
+        <button type="button" onclick="qingKong()">清空</button>
+    </header>
+
+    <div id="drawingBoard"></div>
+
+
+
+    <script src="js.js"></script>
+</body>
+</html> 

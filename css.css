@@ -1,0 +1,46 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+    /*background-color: black;    */
+    overflow: hidden;
+}
+#setLabel{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    z-index: 999;
+    /*层次要确保高于用于绘图的元素，否则会被覆盖*/
+}
+#drawingBoard{
+    height: 100%;
+    width: 100%;
+}
+button{
+    float: right;
+}
+.hong{
+    background-color: red;
+}
+.ju{
+    background-color: orange;
+}
+.huang{
+    background-color: yellow;
+}
+.lv{
+    background-color: green;
+}
+.qing{
+    background-color: cyan;
+}
+.lan{
+    background-color: blue;
+}
+.zi{
+    background-color: purple;
+}
+.hei{
+    background-color: black;
+    color: white;
+}
